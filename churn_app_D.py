@@ -128,8 +128,9 @@ Open source dataset can be found on Kaggle.
 
 
 if st.button('Click here to see datasource'):
-    webbrowser.open_new_tab('https://www.kaggle.com/c/employee-churn-prediction/data')
+    webbrowser.open_new_tab('https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Employee+Churn+in+Python/HR_comma_sep.csv')
 
+#https://www.kaggle.com/c/employee-churn-prediction/data
     
 st.markdown("""
 
@@ -139,13 +140,24 @@ Supervised Machine Learning, Random Forest and XGBOOST Classification algoritms 
 
 """)
 
+
+st.write("    ")
+
 st.markdown("Prepared by: Sully Oz")
-if st.button('LinkedIn'):
-    webbrowser.open_new_tab('https://www.linkedin.com/in/sully-oz/')
+#if st.button('LinkedIn'):
+    #webbrowser.open_new_tab('https://www.linkedin.com/in/sully-oz/')
 
 
-if st.button('GitHub'):
-    webbrowser.open_new_tab('https://github.com/smeteo')
+#if st.button('GitHub'):
+    #webbrowser.open_new_tab('https://github.com/smeteo')
     
-if st.button('Tableau'):
-    webbrowser.open_new_tab('https://public.tableau.com/profile/sully.oz#!/')
+#if st.button('Tableau'):
+    #webbrowser.open_new_tab('https://public.tableau.com/profile/sully.oz#!/')
+    
+#[['this is an image link']('linkedin.png')]('https://streamlit.io')
+#['this is a text link']('https://streamlit.io')
+
+st.write("Find me on [LinkedIn](https://www.linkedin.com/in/sully-oz/) / [GitHub](https://github.com/smeteo) / [Tableau](https://public.tableau.com/profile/sully.oz#!/) ")
+
+
+#st.markdown('[![](left.jpg)](site.com)')
