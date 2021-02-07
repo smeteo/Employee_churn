@@ -127,9 +127,13 @@ Open source dataset can be found on Kaggle.
 
 
 
-if st.button('Click here to see datasource'):
-    webbrowser.open_new_tab('https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Employee+Churn+in+Python/HR_comma_sep.csv')
+#if st.button('Click here to see datasource'):
+    #webbrowser.open_new_tab('https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Employee+Churn+in+Python/HR_comma_sep.csv')
+st.write("Click here to see real data source [Link](https://www.kaggle.com/c/employee-churn-prediction/data)")
+st.write("Click here to download csv file [Link](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Employee+Churn+in+Python/HR_comma_sep.csv)")
 
+    
+    
 #https://www.kaggle.com/c/employee-churn-prediction/data
     
 st.markdown("""
@@ -141,7 +145,7 @@ Supervised Machine Learning, Random Forest and XGBOOST Classification algoritms 
 """)
 
 
-st.write("    ")
+st.write(" ")
 
 st.markdown("Prepared by: Sully Oz")
 #if st.button('LinkedIn'):
